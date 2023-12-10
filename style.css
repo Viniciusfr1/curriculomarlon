@@ -1,0 +1,203 @@
+::-moz-selection { color: white;  background: #1c87ad; }
+::selection      { color: white;  background: #1c87ad; }
+
+a:link, a:visited
+{
+	color: rgb(255, 229, 229);
+    text-shadow: rgba(0, 0, 0, 0.85) 1px 2px 0px;
+	text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover
+{
+	color: #fd9604;
+	cursor: pointer;
+}
+
+.kakak{
+	color: rgb(255, 229, 229)!important;
+    text-shadow: rgba(0, 0, 0, 0.85) 1px 2px 0px!important;
+	text-decoration: none!important;
+    transition: 0.3s;
+    
+}
+.kakak:hover{
+    color: #fd9604;
+}
+a.kakak:visited {
+    text-decoration: none;
+    color: #FFF;
+}
+a.kakak:hover{
+	color: #fd9604!important;
+    text-decoration:underline !important;
+
+}
+
+
+.top_section {
+    text-align: left !important;
+    height: 31px;
+    padding-top: 30px;
+    padding-left: 8px;
+    color: white;
+    font-size: 138%;
+}
+
+.eae{
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 0px;
+    border: 1px solid #555;
+    float:left
+    }
+
+.ola{
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 0px;
+    border: 1px solid #555;
+    float:left
+    }
+
+@font-face {
+    font-family: CenturyGothic;
+    src: local(CenturyGothic), url('CenturyGothic.ttf') format('opentype'); /* non-IE */
+}
+
+*{
+    font-family: CenturyGothic;
+
+}
+
+.navigate_section {
+    padding: 0.5em 0em 0.5em 0px;
+    margin: 0 0 0 0;
+}
+
+.hahah{
+    text-align: left !important;
+    height: 31px;
+    padding-left: 8px;
+    color: rgb(232, 230, 227);
+    font-size: 20px;
+    text-decoration-color: initial;
+    text-shadow: rgba(0, 0, 0, 0.85) 1px 2px 0px;
+}
+
+div#wrapper {
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 980px;
+    max-width: 1470px;
+    position: relative;
+}
+
+body{
+    margin: 0;
+    background: black;
+	font: 78%/130% 'CenturyGothic', "Century Gothic", "Apple Gothic", sans-serif, Arial, "Trebuchet MS", verdana;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 11.5%;
+    background-color: rgb(255, 229, 229);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  li a:link, a:visited {
+    display: block;
+    color: #000000;
+    padding: 72px 12px;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.0) 1px 2px 0px;
+  }
+
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #353535;
+    color: rgb(199, 195, 195);
+  }
+  ul {
+    border: 1px solid #000000;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #000000;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+.dark-mode{
+    background: white;
+}
+
+.video_container, .video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;   
+    object-fit: fill;
+    opacity: 1;
+    z-index: -1;
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+}
+
+.selokocompraumlanchemeu{
+    background-color: rgb(255, 229, 229);
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 120px;
+    max-width: 300px;
+    position: relative;
+    float:left;
+}
+
+.whiteTextOverride{
+    color: #ff9a00;
+    float:right;
+    position: absolute;
+    text-align: right;
+    display:inline-block; 
+    margin-top:5px;
+    margin-left: 10px;
+    text-shadow: rgba(0, 0, 0, 0.85) 1px 2px 0px;
+    font-size: 20px;
+}
+
+.cu{
+    line-height: 30px;
+
+}
+
+.mito{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    width: 3.5%;
+    height: auto;
+}
+
+.muitopoggers{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
